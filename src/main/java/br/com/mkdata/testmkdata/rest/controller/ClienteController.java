@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("testemkdata/api-v1/cliente")
-@CrossOrigin("${endereco.cors}")
+@CrossOrigin(origins = "${endereco.cors}")
 @Slf4j
 public class ClienteController {
 
